@@ -18,7 +18,7 @@ html {
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background-color: #e7fbfe;
+    background-color: #fdf5f0;
     color: #3a3a3a;
     line-height: 1.8;
     min-height: 100vh;
@@ -66,8 +66,8 @@ body {
 }
 
 .content p strong {
-    color: #111111;
-    font-weight: 600;
+    color: #0a0a0a;
+    font-weight: 700;
 }
 
 .content p:last-child {
@@ -77,11 +77,17 @@ body {
 /* Tagline */
 .tagline {
     margin-top: 12px;
-    font-style: italic;
-    color: #777777 !important;
-    font-size: 1rem !important;
+    font-style: italic !important;
+    color: #111111 !important;
+    font-size: 1.05rem !important;
+    font-weight: 600;
     border-top: 1px solid rgba(0, 0, 0, 0.08);
     padding-top: 28px;
+}
+
+.tagline strong {
+    font-weight: 700;
+    color: #111111;
 }
 
 /* ===========================
