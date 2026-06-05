@@ -63,8 +63,8 @@ body {
 }
 
 .profile-photo {
-    width: 140px;
-    height: 140px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     object-position: center top;
@@ -225,5 +225,10 @@ body {
     .container {
         padding-top: 120px;
         padding-bottom: 80px;
+    }
+
+    .profile-photo {
+        width: 220px;
+        height: 220px;
     }
 }
